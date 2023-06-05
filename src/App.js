@@ -1,11 +1,10 @@
 import React from "react";
 import "./style.css";
-
+import ReactRogue from './ReactRogue.js';
 const App=()=> (
-   <div id="App">
-   <h1>Title</h1>
-   <p>Somme Content here</p>
-   </div>
+  <div className="App">
+   <ReactRogue width={40} height={40} tilesize={16}/>
+  </div>
 );
 
 export default App;
